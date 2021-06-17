@@ -1,0 +1,11 @@
+#navb{
+    background: brown;
+}
+
+#hero{
+    background-image: url("/imagemain/images1/Moes.jpg");
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
