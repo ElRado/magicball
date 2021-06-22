@@ -11,14 +11,15 @@ const displayAnswer = function() {
 	element.innerHTML = '<br><br>' + answer;
 }
 
-const input = document.getElementById("input");
+const input = document.getElementById("myText");
 const eight = document.getElementById("ball");
 
   answerButton.addEventListener("click", function(displayAnswer){
-	if (input.value.length < 2) {
+	if (input.value.length < 1) {
 	  alert("Please enter a question!");}
 	  else {
 		eight.innerText = "";
 		answers.innerText = "answer";}
+    answer.innerText = answers[num];
   });
 
