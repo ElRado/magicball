@@ -4,7 +4,7 @@ const answers = [
 
 const displayAnswer = function() {
 
-	let index = Math.random(answers);
+	let index = Math.random(answers * 20);
 	let answer = answers[index];
 	let element = document.getElementById( "ball" );
 	element.style.display = 'inline-block';
@@ -20,6 +20,6 @@ const eight = document.getElementById("ball");
 	  else {
 		eight.innerText = "";
 		answers.innerText = "answer";}
-    answer.innerText = answers[num];
+    answer.innerText = answer[answer];
   });
 
