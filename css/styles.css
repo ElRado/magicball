@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 #navb{
     background: #07926A;
     background: -webkit-linear-gradient(right, #07926A, #A81547);
@@ -6,6 +8,7 @@
     border: black;
     border-style: solid;
     border-radius: 3px;
+    font-family: 'Rock Salt', cursive;
 }
 
 #hero{
@@ -19,4 +22,24 @@
 #moe{
 height: 500px;
 width: 500px;
+}
+
+#moes
+{
+    font-family: 'Rock Salt', cursive;
+    font-size: 22pt;
+    font-weight: bold;
+    color: black;
+    background: -webkit-linear-gradient(right, #07926A, #A81547);
+    background: -moz-linear-gradient(right, #07926A, #A81547);
+    background: linear-gradient(to left, #07926A, #A81547);
+    opacity: 80%;
+}
+
+#ask{
+    font-family: 'Rock Salt', cursive;
+    color:red;
+    font-size: 18pt;
+    font-weight: bold;
+ 
 }
