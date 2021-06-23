@@ -3,6 +3,7 @@ const answers = [
 ];
 
 const displayAnswer = function() {
+	console.log('am I even working?')
 	let index = Math.floor(Math.random() * answers.length);
 	let answer = answers[index];
 	let element = document.getElementById( "resolve" );
@@ -14,12 +15,10 @@ const input = document.getElementById("myText");
 const eight = document.getElementById("resolve");
 
   answerButton.addEventListener("click", function(){
+	  console.log('am i on')
 	if (input.value.length < 1) {
 	  alert("Please enter a question!");}
 	  else {
-		/*eight.innerText = "";
-		answers.innerText = "myText";}
-   	eight.innerText = answer[index];*/
 	   displayAnswer();
   }}); 
 

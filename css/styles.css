@@ -49,3 +49,16 @@ width: 500px;
     opacity: 80%;
  
 }
+
+#ball{
+    width: 100%;
+  height: auto;
+}
+
+#resolve {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
