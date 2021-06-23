@@ -6,14 +6,14 @@ const displayAnswer = function() {
 	let index = Math.floor(Math.random() * answers.length);
 	let answer = answers[index];
 	let element = document.getElementById( "resolve" );
-	//element.style.display = 'inline-block';
-	//element.innerHTML = '<br><br>' + answer;
+	element.style.display = 'inline-block';
+	element.innerHTML = '<br><br>' + answer;
 }
 
 const input = document.getElementById("myText");
 const eight = document.getElementById("resolve");
 
-  answerButton.addEventListener("click", function(displayAnswer){
+  answerButton.addEventListener("click", function(){
 	if (input.value.length < 1) {
 	  alert("Please enter a question!");}
 	  else {
