@@ -33,6 +33,7 @@ width: 500px;
     background: -webkit-linear-gradient(right, #07926A, #A81547);
     background: -moz-linear-gradient(right, #07926A, #A81547);
     background: linear-gradient(to left, #07926A, #A81547);
+    border-radius: 3px;
     opacity: 80%;
 }
 
@@ -44,6 +45,7 @@ width: 500px;
     background: -webkit-linear-gradient(right, #07926A, #A81547);
     background: -moz-linear-gradient(right, #07926A, #A81547);
     background: linear-gradient(to left, #07926A, #A81547);
+    border-radius: 2px;
     opacity: 80%;
  
 }
