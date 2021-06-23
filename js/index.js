@@ -4,22 +4,22 @@ const answers = [
 
 const displayAnswer = function() {
 
-	let index = Math.random(answers * 20);
-	let answer = answers[index];
-	let element = document.getElementById( "ball" );
-	element.style.display = 'inline-block';
+	let index = Math.random(push * answers.length);
+	let answer = answers[answers];
+	let element = document.getElementById( "resolve" );
+	//element.style.display = 'inline-block';
 	element.innerHTML = '<br><br>' + answer;
 }
 
 const input = document.getElementById("myText");
-const eight = document.getElementById("ball");
+const eight = document.getElementById("resolve");
 
   answerButton.addEventListener("click", function(displayAnswer){
 	if (input.value.length < 1) {
 	  alert("Please enter a question!");}
 	  else {
 		eight.innerText = "";
-		answers.innerText = "answer";}
-    answer.innerText = answer[answer];
+		answers.innerText = "myText";}
+    eight.innerText = answer;
   });
 
