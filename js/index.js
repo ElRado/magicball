@@ -20,5 +20,6 @@ const eight = document.getElementById("resolve");
 		/*eight.innerText = "";
 		answers.innerText = "myText";}
    	eight.innerText = answer[index];*/
+	   displayAnswer();
   }}); 
 
