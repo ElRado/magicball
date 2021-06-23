@@ -38,8 +38,12 @@ width: 500px;
 
 #ask{
     font-family: 'Rock Salt', cursive;
-    color:red;
+    color:black;
     font-size: 18pt;
     font-weight: bold;
+    background: -webkit-linear-gradient(right, #07926A, #A81547);
+    background: -moz-linear-gradient(right, #07926A, #A81547);
+    background: linear-gradient(to left, #07926A, #A81547);
+    opacity: 80%;
  
 }
