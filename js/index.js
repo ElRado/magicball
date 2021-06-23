@@ -17,8 +17,8 @@ const eight = document.getElementById("resolve");
 	if (input.value.length < 1) {
 	  alert("Please enter a question!");}
 	  else {
-		eight.innerText = "";
+		/*eight.innerText = "";
 		answers.innerText = "myText";}
-   	eight.innerText = answer[index];
-  });
+   	eight.innerText = answer[index];*/
+  }}); 
 
